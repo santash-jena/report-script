@@ -3,9 +3,9 @@ require 'csv'
 table = CSV.table('output.csv')
 
 gcp_keywords = {
-    email: %w(cloudvlab@tudip.com google@tudip.com tudip.com tudip.nl tudip),
+    email: %w(cloudvlab@tudip.com google@tudip.com tudip.com tudip.nl tudip training-support-agents@google.com),
     class: ['Cloud ML Engine','Coursera',
-     'AWS Educate Starter Account',
+     'AWS Educate Starter Account','AWS Educate Starter Account 75 - 2','AWS Educate Starter Account 100','AWS Educate Starter Account 100 - 2','AWS Educate Starter Account 150','AWS Educate Starter Account 150 - 2','AWS Educate Starter Account 30','AWS Educate Starter Account 30 - 2', 'AWS Educate Starter Account 40 - 2', 'AWS Educate Starter Account 50', 'AWS Educate Starter Account 50 - 2', 'AWS Educate Starter Account 75', 'AWS Educate Starter Account 75 - 2',
      'Deployment Manager Quest', 'Apigee Istio Workshop',
             'Baseline: Data, ML, AI Quest', 'Cloud Architecture',
             'Big Data and Machine Learning Fundamentals','App Engine',
@@ -14,7 +14,7 @@ gcp_keywords = {
             'Machine Learning APIs Quest', 'Recommendations with TensorFlow',
             'Google Kubernetes Engine' 'ML Immersion','App Dev: Deploying an API for the Quiz Application v1.1', 'Kubernetes Engine', 'TAW'],
     class_tags: ['Coursera', 'Google', 'ed/it', 'Accelerate 2018', 'gcloud', 'next18'],
-    lab_title: ['Cloud ML Engine','Using Apigee for API Management','App Dev: Storing Application Data in Cloud Datastore v1.1','App Dev: Storing Image and Video Files in Cloud Storage v1.1',
+    lab_title: ['Analyzing IoT Data in Data Studio','Welcome to Qwiklabs','Predicting Ecommerce Visitor Purchases with a Classification Model','Streaming IoT Data to GCS','Cloud ML Engine','Using Apigee for API Management','App Dev: Storing Application Data in Cloud Datastore v1.1','App Dev: Storing Image and Video Files in Cloud Storage v1.1',
                 'Leveraging Unstructured Data','Kubernetes Basics','Data to Insights','Create a Streaming Data Pipeline for a Real-Time Dashboard with Cloud Dataflow',
                 'Big Data & ML','App Engine','Cloud Hero: Further along','Cloud Hero: Home is cloud','Practice with ML APIs in Cloud Datalab v1.5','Deriving Insights from Advanced SQL Functions v1.5','Create a Cloud SQL Instance Using Deployment Manager',
                 'Creating a Virtual Machine', 'Coursera', 'Cloud Shell','Anthos in 10 Minutes','HybridAnthos-070 Configuring GKE for Multi-Cluster Operation with Istio','HybridAnthos-075 Configuring GKE for Shared Control Plane Multi-Cluster Operation',
